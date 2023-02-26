@@ -3,11 +3,13 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-        <a>HOME</a>
-        <a>EXPERINCE</a>
-        <a>ABOUT</a>
-        <a>BLOGS</a>
-        <a>CONTACT</a>
+      <div  className="headerA">
+        <a>Home</a>
+        <a>Experience</a>
+        <a>About</a>
+        <a>Blogs</a>
+        <a>Contact</a>
+      </div>
     </div>
   );
 };
