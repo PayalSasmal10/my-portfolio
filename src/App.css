@@ -2,6 +2,9 @@
   --blue: #00adff;
   --grey: grey;
   --white: #fff;
+  --ring1: #d5d5d5;
+  --ring2: #9b9b9b;
+  --ring3: #616161;
 
 }
 
@@ -13,4 +16,10 @@
 
 body {
   background-color: #f1f1f1;
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --toggler-position: 12px;
+  }
 }

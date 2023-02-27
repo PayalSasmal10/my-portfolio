@@ -5,12 +5,12 @@ import profile_pic from "../../assets/profile.jpg"
 
 const Home = () => {
   return (
-    <section className='container intro_body'>
-      <div>
-        <div>
-          <div>
-            <div>
-              <img src={profile_pic} alt="profile_pic" />
+    <section className='container intro_body' id='home'>
+      <div data-aos="zoom-in" className='intro_profile_pic_holder aos-init aos-animate'>
+        <div className='intro_Ring intro_Ring1'>
+          <div className='intro_Ring intro_Ring2'>
+            <div className='intro_Ring intro_Ring3'>
+              <span src={profile_pic} alt="profile_pic" />
             </div>
           </div>
         </div>
