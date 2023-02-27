@@ -1,8 +1,16 @@
 :root{
   --blue: #00adff;
   --grey: grey;
+  --white: #fff;
 
 }
+
+*{
+  font-family: Roboto;
+  /* box-sizing: border-box;
+  transition: 0.4s */
+}
+
 body {
   background-color: #f1f1f1;
 }
