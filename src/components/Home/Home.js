@@ -1,7 +1,7 @@
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithubSquare, FaTwitterSquare } from 'react-icons/fa';
 import './Home.css';
-
+import profile_pic from "../../assets/profile.jpg"
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <div>
           <div>
             <div>
-              <img src="./assets/profile.jpg" alt="" />
+              <img src={profile_pic} alt="profile_pic" />
             </div>
           </div>
         </div>
