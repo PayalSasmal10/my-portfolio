@@ -2,7 +2,7 @@
 .header {
     width: 100%;
     height: 40px;
-    /* background-color: brown; */
+    background-color: brown;
     padding: 20px 0px 20px 0px ;
 }
 
@@ -29,11 +29,14 @@
 
 .header a:hover{
     color: var(--blue);
+    
+}
+
+.header a:active{
     text-decoration: dashed;
 }
 
-
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .header a {
         margin: 0 20px;
     }
@@ -46,9 +49,9 @@
         justify-content: flex-end;
         width: 100%;
     }
-} */
+}
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .header a {
         padding: 3px;
         font-weight: bold;
@@ -64,4 +67,4 @@
         justify-content: flex-end;
         width: 100%;
     }
-}
+} */
