@@ -97,6 +97,15 @@ section{
     color: var(--grey);
 }
 
+.intro_ContactContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.intro_ContactLinkHolder{
+    margin-top: 12px;
+}
+
 img {
     width: 28px;
     height: 28px;
@@ -115,6 +124,9 @@ img {
     }
     .intro_designation{
         font-size: larger;
+    }
+    .intro_ContactLinkHolder{
+        margin-top: 20px;
     }
 }
 
@@ -135,7 +147,10 @@ img {
     .intro_name{
         margin: 6px 0;
     }
-    
+    .intro_ContactContainer{
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
 }
 
 @media screen and (min-width:568px) {

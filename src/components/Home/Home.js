@@ -20,8 +20,8 @@ const Home = () => {
         <div className='intro_name'>Payal Sasmal</div>
         <div className='intro_designation'>Software Engineer</div>
       </div>
-      <div>
-        <div>
+      <div className='intro_ContactContainer'>
+        <div className='intro_ContactLinkHolder'>
             <a href="https://www.linkedin.com/in/payalsasmal/">
                 <div><AiFillLinkedin/></div>
             </a>
