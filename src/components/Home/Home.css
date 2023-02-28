@@ -84,6 +84,19 @@ section{
     padding: 2px 8px;
     font-size: smaller;
 }
+
+.intro_name {
+    color: var(--dark);
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.intro_designation{
+    color: var(--grey);
+}
+
 img {
     width: 28px;
     height: 28px;
@@ -96,6 +109,12 @@ img {
     }
     .introHolder{
         margin-bottom: 10px;
+    }
+    .intro_name{
+        font-size: 48px;
+    }
+    .intro_designation{
+        font-size: larger;
     }
 }
 
@@ -113,13 +132,13 @@ img {
         justify-content: space-between;
         padding: 64px;
     }
+    .intro_name{
+        margin: 6px 0;
+    }
     
 }
 
 @media screen and (min-width:568px) {
-    .introHolder{
-        margin-bottom: 5px;
-    }
     .intro_Ring1{
         height: 400px;
         width: 400px;
@@ -131,6 +150,12 @@ img {
     .intro_Ring3{
         height: 320px;
         width: 320px;
+    }
+    .introHolder{
+        margin-bottom: 5px;
+    }
+    .intro_name{
+        font-size: xx-large;
     }
 }
 

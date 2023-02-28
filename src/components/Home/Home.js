@@ -1,7 +1,7 @@
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithubSquare, FaTwitterSquare } from 'react-icons/fa';
 import './Home.css';
-import profile_pic from "../../assets/profile.jpg"
+import loading_img from "../../assets/loading-background.gif";
 
 const Home = () => {
   return (
@@ -10,15 +10,15 @@ const Home = () => {
         <div className='intro_Ring intro_Ring1'>
           <div className='intro_Ring intro_Ring2'>
             <div className='intro_Ring intro_Ring3'>
-              <span src={profile_pic} alt="profile_pic" />
+              <span alt="profile_pic" style={{backgroundImage: 'url(loading_img)'}} />
             </div>
           </div>
         </div>
       </div>
       <div className='introHolder'>
         <div className='intro'>Hello! I'm</div>
-        <div>Payal Sasmal</div>
-        <div>Software Engineer</div>
+        <div className='intro_name'>Payal Sasmal</div>
+        <div className='intro_designation'>Software Engineer</div>
       </div>
       <div>
         <div>
