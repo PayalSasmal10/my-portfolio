@@ -1,7 +1,7 @@
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import "./Home.css";
-import loading_img from "../../assets/loading-background.gif";
+// import loading_img from "../../assets/loading-background.gif";
 
 const Home = () => {
   return (
@@ -43,7 +43,7 @@ const Home = () => {
                 <FaTwitterSquare />
               </div>
             </a>
-            <a href="">
+            <a href="#">
               <div>
                 <img src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/dev-dot-to.svg" />
               </div>
