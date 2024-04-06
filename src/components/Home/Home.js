@@ -28,7 +28,7 @@ const Home = () => {
         </div>
         <div className="intro_ContactContainer">
           <div className="intro_ContactLinkHolder">
-            <a href="https://www.linkedin.com/in/payalsasmal/">
+            <a href="https://www.linkedin.com/in/payalsasmal/" target="_blank" rel="noreferrer">
               <div>
                 <AiFillLinkedin />
               </div>
