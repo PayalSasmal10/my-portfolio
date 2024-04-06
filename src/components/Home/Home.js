@@ -38,7 +38,7 @@ const Home = () => {
                 <FaGithubSquare />
               </div>
             </a>
-            <a href="https://twitter.com/payalsasmal">
+            <a href="https://twitter.com/payalsasmal" target="_blank">
               <div>
                 <FaTwitterSquare />
               </div>
