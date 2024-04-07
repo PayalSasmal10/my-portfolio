@@ -1,46 +1,50 @@
-section{
-    overflow: hidden;
+section {
+  overflow: hidden;
 }
-.container{
+.introHolder {
+  width: 20%;
+  margin: 20% 0 0 20%;
+}
+/* .container{
     padding-left: 0 !important;
     padding-right: 0 !important;
-}
-.intro_body{
-    position: relative;
+} */
+/* .intro_body{
+    position: relative; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     padding: 64px;
-}
+} */
 
-[data-aos^=zoom][data-aos^=zoom].aos.animate {
+/* [data-aos^=zoom][data-aos^=zoom].aos.animate {
     opacity: 1;
     transform: translateZ(0) scale(1);
-}
+} */
 
-[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos]{
+/* [data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos]{
     transition-timing-function: ease;
-}
+} */
 
-[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos]{
+/* [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos]{
     transition-duration: .4s;
-}
+} */
 
-[data-aos^=zoom][data-aos^=zoom]{
+/* [data-aos^=zoom][data-aos^=zoom]{
     opacity: 0;
     transition-property: opacity, transform;
 }
 
 [data-aos=zoom-in]{
     transform: scale(.6);
-}
+} */
 
-.intro_profile_pic_holder {
+/* .intro_profile_pic_holder {
     padding-bottom: 32px;
-}
-
+} */
+/* 
 .intro_Ring{
     border-radius: 50%;
     display: flex;
@@ -49,34 +53,34 @@ section{
 }
 
 .intro_Ring1 {
-    /* height: 280px; */
+    height: 280px;
     width: 280px;
     background-color: var(--ring1);
 }
 
 .intro_Ring2 {
-    /* height: 250px; */
+    height: 250px;
     width: 250px;
     border-radius: 50%;
     background-color: var(--ring2);
 }
 
 .intro_Ring3{
-    /* height: 220px; */
+    height: 220px;
     width: 220px;
     border-radius: 50%;
     background-color: var(--ring3);
-}
+} */
 
-
-.introHolder{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* .introHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
     align-items: center;
     margin-bottom: 4px;
-}
+} */
 
+/* 
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
     transform: translateZ(0);
@@ -89,42 +93,45 @@ section{
 
 [data-aos=fade-left]{
     transform: translate3d(100px, 0, 0);
-}
+} */
 
 .intro {
-    background-color: var(--blue);
-    color: var(--white);
-    border-radius: 1000px 1000px 1000px 0;
-    padding: 2px 8px;
-    font-size: smaller;
+  width: 62px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 1000px 1000px 1000px 0;
+  padding: 2px 8px;
+  font-size: smaller;
 }
 
 .intro_name {
-    color: var(--dark);
-    text-transform: uppercase;
-    font-family: Montserrat;
-    font-size: x-large;
-    font-weight: 700;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-family: Montserat;
+  font-size: xx-large;
+  font-weight: 700;
 }
 
-.intro_designation{
-    color: var(--grey);
+.intro_designation {
+  color: var(--grey);
 }
 
-.intro_ContactContainer{
-    display: flex;
-    justify-content: center;
-}
+/* .intro_ContactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
-.intro_ContactLinkHolder{
+/* .intro_ContactLinkHolder{
     margin-top: 12px;
-}
+} */
 
 img {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
 }
 
+/* 
 @media screen and (min-width:1200px){
     img {
         height: 28px;
@@ -169,27 +176,24 @@ img {
         justify-content: flex-start;
         margin-top: 8px;
     }
-}
+} */
 
-@media screen and (min-width:568px) {
+/* @media screen and (min-width:568px) {
     .introHolder{
         margin-bottom: 6px;
     }
-    .intro_Ring1{
+    /* .intro_Ring1{
         height: 400px;
         width: 400px;
-    }
-    .intro_Ring2{
+    } */
+/* .intro_Ring2{
         height: 360px;
         width: 360px;
     }
     .intro_Ring3{
         height: 320px;
         width: 320px;
-    }
-    .introHolder{
-        margin-bottom: 5px;
-    }
+    } 
     .intro{
         padding: 4px, 12px;
         font-size: small;
@@ -197,5 +201,7 @@ img {
     .intro_name{
         font-size: xx-large;
     }
-}
-
+    .intro_ContactContainer{
+        align-items: center;
+    }
+} */
