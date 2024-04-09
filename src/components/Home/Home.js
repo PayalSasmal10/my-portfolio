@@ -1,7 +1,7 @@
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare, FaThLarge, FaTwitterSquare } from "react-icons/fa";
 import "./Home.css";
-import profile from '../../assets/profile.jpg';
+import profile from "../../assets/profile.jpg";
 
 const Home = () => {
   return (
@@ -75,8 +75,14 @@ const Home = () => {
             {/* </div> */}
           </div>
         </div>
-        <div>
-          <img src={profile} alt="payal's profile pic" className="profile-img"/>
+        <div className="profile-img-div-outer">
+          <div className="profile-img-div-inner">
+            <img
+              src={profile}
+              alt="payal's profile pic"
+              className="profile-img"
+            />
+          </div>
         </div>
       </section>
     </main>

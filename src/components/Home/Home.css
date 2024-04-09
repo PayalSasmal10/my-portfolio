@@ -39,7 +39,6 @@ section {
 
 .intro_ContactContainer {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   width: 348px;
   margin-top: 35px;
@@ -65,10 +64,30 @@ section {
   height: 28px;
 }
 
+.profile-img-div-outer {
+  width: 440px;
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+
+.profile-img-div-inner {
+  width: 440px;
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
 .profile-img {
   width: 400px;
   max-width: 100%;
   border-radius: 50%;
+  /* box-shadow: 2px 2px 18px -2px var(--blue); */
+  /* -webkit-box-shadow: 7.5px 3px 14.5px 3px var(--blue);
+  -moz-box-shadow: 7.5px 3px 14.5px 3px var(--blue);
+  box-shadow: 7.5px 3px 14.5px 3px var(--blue); */
 }
 
 /* img {
