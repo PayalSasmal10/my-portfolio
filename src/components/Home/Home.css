@@ -3,11 +3,14 @@ section {
 }
 .intro_body {
   /* width: 20%; */
-  margin: 178px 0 0 61px;
+  margin-top: 196px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.introHolder{
-    width: 430px;
+.introHolder {
+  width: 430px;
 }
 
 .intro {
@@ -46,22 +49,29 @@ section {
   padding: 10px;
 }
 
-.contact-link-body{
-    width: 48px;
-    height: 48px;
-    margin-right: 35px;
-    cursor: pointer;
-    background-color: var(--blue);
-    color: var(--white);
-    border-radius: 50%;
+.contact-link-body {
+  width: 48px;
+  height: 48px;
+  margin-right: 35px;
+  cursor: pointer;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 50%;
 }
 
-.contact-link-body img{
-    filter: invert(100%);
-}
-
-
-img {
+.contact-link-body img {
+  filter: invert(100%);
   width: 28px;
   height: 28px;
 }
+
+.profile-img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* img {
+  width: 28px;
+  height: 28px;
+} */
