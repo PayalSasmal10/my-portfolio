@@ -7,20 +7,6 @@ const Home = () => {
   return (
     <main>
       <section className="container intro_body" id="home">
-        {/* <div
-          data-aos="zoom-in"
-          className="intro_profile_pic_holder aos-init aos-animate">
-          <div className="intro_Ring intro_Ring1">
-            <div className="intro_Ring intro_Ring2">
-              <div className="intro_Ring intro_Ring3">
-                <span
-                  alt="profile_pic"
-                  style={{ backgroundImage: "url(loading_img)" }}
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div>
           <div className="introHolder">
             <div className="intro">Hello! I am</div>
