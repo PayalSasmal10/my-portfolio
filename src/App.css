@@ -1,4 +1,4 @@
-:root{
+:root {
   --blue: #00adff;
   --grey: grey;
   --white: #fff;
@@ -6,13 +6,12 @@
   --ring2: #9b9b9b;
   --ring3: #616161;
   --dark: #111;
-
 }
 
-*{
-  font-family: Roboto;
-  /* box-sizing: border-box;
-  transition: 0.4s */
+* {
+  font-family: Roboto; 
+  box-sizing: border-box;
+  transition: 0.4s
 }
 
 body {
